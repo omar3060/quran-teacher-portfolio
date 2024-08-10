@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="./images/favIcon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Islam | Quran Teacher</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Eslam</a>
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#about">About me</a>
+        <a href="#contact">Contact me</a>
+        <div class="languages">
+          <a
+            class="arabic"
+            href="./index.html"
+            style="padding: 10px; margin-left: 30px"
+            >اللغة العربية</a
+          >|
+          <a class="english" href="./indexEn.html" style="padding: 0 0 0 10px"
+            >English</a
+          >
+        </div>
+      </nav>
+      <div class="burger-menu" onclick="toggleBurgerMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <div class="text">
+          <h1>Welcome to my personal website</h1>
+          <br />
+          <p>
+            My name is Islam Magdy, and I am 29 years old. I have memorized the
+            Quran and studied Quranic recitations under several prominent
+            scholars. I have been working as a Quran tutor at the Ratel platform
+            and Turaath Recitation since 2023
+          </p>
+        </div>
+        <div class="image">
+          <img src="./images/hero.jpg" alt="Quran Teacher" />
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" id="about">
+      <h2 class="title">About me</h2>
+      <div class="details">
+        <h3 class="detail">I got a diploma in Quran teacher qualification</h3>
+        <h3 class="detail">
+          I got a diploma in the Holy Quran and its sciences
+        </h3>
+        <h3 class="detail">I got a diploma in Quran interpretation</h3>
+        <div class="detail">
+          <h3>I memorized the Quran under the guidance of:</h3>
+          <ul>
+            <li>Sheikh Mohamed Eid Al-Aidi</li>
+            <li>Sheikh Ahmed Gomaa</li>
+            <li>Sheikh Ibrahim Abdu</li>
+          </ul>
+        </div>
+        <div class="detail">
+          <h3>
+            As for the science of Quranic recitations (Qira'at), I studied and
+            recited the Quran under:
+          </h3>
+          <ul>
+            <li>Sheikh Ibrahim Youssef Awaida</li>
+            <li>Sheikh Abdullah Hassan Mohamed Alwan (Bachelor of Readings and its Sciences, Faculty of the Holy Quran / Al-Azhar University Bachelor of Arts and Education)</li>
+            <li>Sheikh Mohamed Abdel Karim (College of Islamic Sciences in Turkey)</li>
+            <li>Sheikh Alaa Mahmoud Abdel Aal</li>
+            <li>
+              Dr. Sabry Abdulazim, a professor at the University of Islamic and
+              Linguistic Sciences in Russia
+            </li>
+            <li>Sheikh Ramadan Helmy</li>
+          </ul>
+        </div>
+        <div class="detail">
+          <h3>
+            Regarding the study of texts, I obtained the following from the
+            University of Islamic and Linguistic Sciences under Dr. Sabry
+            Abdulazim:
+          </h3>
+          <ul>
+            <li>Al-Salsabil Al-Shafi</li>
+            <li>Tuhfat Al-Atfal</li>
+            <li>Introduction to Al-Jazariyyah</li>
+            <li>The Principles of Imam Al-Shatibi</li>
+          </ul>
+        </div>
+      </div>
+      <!-- <h3>
+        I have been working as a Quran tutor at the Ratel platform and Turaath
+        Recitation since 2023
+      </h3> -->
+      <h1 class="igaza">My diplomas</h1>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <img src="./images/diploma-1.jpg" alt="Certification 1" />
+          </div>
+          <div class="info diploma">
+            <h3>diploma in Quran teacher qualification</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/diploma-3.jpg" alt="Certification 1" />
+          </div>
+          <div class="info diploma">
+            <h3>diploma in the Holy Quran and its sciences</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/diploma-2.jpg" alt="Certification 1" />
+          </div>
+          <div class="info diploma">
+            <h3>diploma in Quran interpretation</h3>
+          </div>
+        </div>
+      </div>
+      <h1 class="igaza">My ijazat</h1>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <img src="./images/1.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation of Asim according to the narration
+              from the Shatibiyyah pathway
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/2.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation and teaching of the Quran according to
+              the narration of Qalun from Imam Nafi' al-Madani through the
+              Shatibiyyah pathway
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/3.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation and teaching of the Quran according to
+              the recitation of Imam Abu 'Amr al-Basri, narrated by al-Duri and
+              al-Susi through the Shatibiyyah pathway
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/4.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation of the Quran according to the
+              narration of Warsh from Nafi' al-Madani through the Shatibiyyah
+              pathway
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/5.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation and teaching of the Quran according to
+              the recitation of Imam Hamzah, narrated by Khalaf and Khallad,
+              through the Shatibiyyah pathway
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/6.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the recitation and teaching of the Quran according to
+              the narration of Qalun from Imam Nafi' al-Madani through the
+              Shatibiyyah pathway, given by the granting scholar
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/7.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>An Ijazah in the text of Al-Salsabil Al-Shafi</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/8.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>
+              An Ijazah in the poem of Tuhfat al-Atfal and the verse of
+              Al-Lu’lu’ah
+            </h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/9.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>An Ijazah in the text of Al-Qasr Al-Munfasil</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/10.jpg" alt="Certification 1" />
+          </div>
+          <div class="info">
+            <h3>An Ijazah in the texts of Al-Shatibiyyah and Al-Durra</h3>
+          </div>
+        </div>
+      </div>
+      <h1 class="igaza">Ijazat I gave to my students</h1>
+      <div class="content">
+        <div class="card">
+          <div class="icon student">
+            <img src="./images/img-1.jpg" alt="Certification 1" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon student">
+            <img src="./images/img-3.jpg" alt="Certification 1" />
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon student">
+            <img src="./images/img-2.jpg" alt="Certification 1" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+      <h2 class="title">Contact me</h2>
+
+      <div class="content">
+        <a href="tel:+201060283021">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Phone</h3>
+              <p>+201060283021</p>
+            </div>
+          </div>
+        </a>
+        <a href="mailto:aslammajd758@gmail.com">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email</h3>
+              <p class="customStyleForEmail">aslammajd758@gmail.com</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://wa.me/01060283021">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>WhatsApp</h3>
+              <p>Chat on WhatsApp</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-title">Copyrights @<span>Islam Maged</span></p>
+      <!-- <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61563344612582&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+      </div> -->
+    </footer>
+
+    <div id="overlay" class="overlay" onclick="closeOverlay()">
+      <img id="overlay-img" src="" alt="Certification" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
